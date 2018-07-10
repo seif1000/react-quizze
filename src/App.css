@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amiri|Montserrat|Open+Sans|Shrikhand');
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Amiri', serif;
+  font-family: 'Shrikhand', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.Navigation{
+  height: 60px;
+  
+  overflow: hidden;
+  background: #0040ff  ;
+  box-sizing: border-box;
+  box-shadow: 0 3px 3px #e6ecff
+}
+
+.Quize{
+  width: 75%;
+  margin: 40px auto;
+  padding: 50px;
+  box-shadow: 0 2px 3px #ccc;
+}
+.Quize p{
+  text-align: center;
+  font-size: 20px;
+  
+}
+h2{
+  text-align: center;
+  
+  width: 75%;
+  margin:20px auto;
+  padding: 8px;
+  background: #66c2ff ;
+  color: white;
+  box-shadow: 0 2px 3px #0040ff 
+
+}
+.Quize h3{
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background:#66c2ff ;
+  border-radius: 8px
+}
+
+.Answers{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 40px;
+  padding: 0;
+  
+}
+.Answers li{
+  text-align: center;
+  width: 200px;
+  padding: 16px;
+  color: white;
+ 
+  border-radius: 25px;
+  background:#66c2ff ;
+  cursor: pointer;
+  box-shadow: 0 2px 3px #0040ff 
+}
+.Answers li:active{
+  transform: translate(2px ,3px)
+}
+.Progress{
+  width: 75%;
+  margin: 0 auto;
+  
+}
+.Failed{
+  text-align: center;
+  margin-top: 50px;
+}
+.Failed p{
+  font-size: 25px;
+  margin-bottom: 20px
+}
+.Failed a{
+  text-decoration: none;
+  padding: 16px;
+  color: white;
+  background: #66c2ff;
+  font-size: 18px;
+ 
+}
+.fa-smile{
+  font-size: 65px;
+  color: #66c2ff;
+}
